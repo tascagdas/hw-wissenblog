@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wissen Blog</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/colors.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav style="background-color: #085E7D;" class="navbar navbar-expand-sm navbar-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="javascript:void(0)"><i class="fa-solid fa-house"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="./blogs.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacts.html">Contacts</a>
+                    </li>
+                </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="text" placeholder="Search">
+                    <button class="btn btn-warning" type="button"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container mt-4">
+        <div class="row">
+            <!-- SIDEBAR  -->
+            <div class="d-none col-md-3 d-sm-block ">
+                <div class="list-group">
+                    <a href="#" class="list-group-item list-group-item-action active">October</a>
+                    <a href="#" class="list-group-item list-group-item-action">November</a>
+                    <a href="#" class="list-group-item list-group-item-action">December</a>
+                    <a href="#" class="list-group-item list-group-item-action">January</a>
+
+                </div>
+            </div>
+
+            <!-- CARDS -->
+            <div class="col-12 col-md-9 col-sm-8">
+                <!-- BREADCRUMB -->
+                <nav>
+                    <ol class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                        <li class="breadcrumb-item"><a href="blogs.html">Blogs</a></li>
+                        <li class="breadcrumb-item"><a href="#blog-cards">Blog Cards</a></li>
+                    </ol>
+                </nav>
+                <div class="card" id="blog-cards">
+                    <div class="row g-0  shadow mb-4">
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <img src="./images/237-412x250.jpg" class="img-fluid rounded-start" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h4 class="card-title">Card title</h4>
+                                    <p class="card-text">This is a wider card with supporting text below as a natural
+                                        lead-in to
+                                        additional
+                                        content. This content is a little bit longer.</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0  shadow mb-4">
+                        <div class="col-md-4">
+                            <img src="./images/217-412x250.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0  shadow mb-4">
+                        <div class="col-md-4">
+                            <img src="./images/124-412x250.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row g-0  shadow mb-4">
+                        <div class="col-md-4">
+                            <img src="./images/39-412x250.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title">Card title</h4>
+                                <p class="card-text">This is a wider card with supporting text below as a natural
+                                    lead-in to
+                                    additional
+                                    content. This content is a little bit longer.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- FOOTER -->
+    <footer style="background-color: #085E7D; margin-top: 25px;" class="text-white p-2">
+        <div class="container text-center">
+            <p>BAU Wissen Akademie Öğrencisi Çağdaş Taş tarafından tasarlanmıştır. @2023</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
